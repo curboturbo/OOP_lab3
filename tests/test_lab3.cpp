@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../src/f.h" // или вставь код прямо сюда
+#include "../src/f.h" 
 
 
 TEST(TriangleTest, AssignmentOperator) {
