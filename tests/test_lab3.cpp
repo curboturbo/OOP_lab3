@@ -84,9 +84,9 @@ TEST(OctagonTest, ConversionToDouble) {
 
 TEST(ArrayTest, AddDeleteMultipleFigures) {
     Array arr;
-    Triangle t({0,0,4,0,0,3});  // 6
-    Square s({0,0,0,2,2,2,2,0}); // 4
-    Octagon o({0,0,1,0,2,1,2,2,1,3,0,3,-1,2,-1,1}); // >0
+    Triangle t({0,0,4,0,0,3});  
+    Square s({0,0,0,2,2,2,2,0}); 
+    Octagon o({0,0,1,0,2,1,2,2,1,3,0,3,-1,2,-1,1}); 
     arr.add_figure(&t);
     arr.add_figure(&s);
     arr.add_figure(&o);
